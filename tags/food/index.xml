@@ -19,5 +19,14 @@
       <description>HELLO</description>
     </item>
     
+    <item>
+      <title>My 3rd post!!!</title>
+      <link>https://yfp-c.github.io/blog-hugo/posts/my-third-post/</link>
+      <pubDate>Sun, 01 Jan 2023 11:30:03 +0000</pubDate>
+      
+      <guid>https://yfp-c.github.io/blog-hugo/posts/my-third-post/</guid>
+      <description>HELLO</description>
+    </item>
+    
   </channel>
 </rss>
