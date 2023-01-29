@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://yfp-c.github.io/blog-hugo/sitemap.xml
