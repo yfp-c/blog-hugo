@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>food on Kartini&#39;s Kitchen</title>
-    <link>https://yfp-c.github.io/blog-hugo/tags/food/</link>
+    <link>https://lulukskitchen.com/tags/food/</link>
     <description>Recent content in food on Kartini&#39;s Kitchen</description>
     <image>
-      <url>https://yfp-c.github.io/blog-hugo/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://yfp-c.github.io/blog-hugo/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://lulukskitchen.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://lulukskitchen.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 04 Jan 2023 11:30:03 +0000</lastBuildDate><atom:link href="https://yfp-c.github.io/blog-hugo/tags/food/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Jan 2023 11:30:03 +0000</lastBuildDate><atom:link href="https://lulukskitchen.com/tags/food/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My 4th post!!!</title>
-      <link>https://yfp-c.github.io/blog-hugo/posts/my-fourth-post/</link>
+      <link>https://lulukskitchen.com/posts/my-fourth-post/</link>
       <pubDate>Wed, 04 Jan 2023 11:30:03 +0000</pubDate>
       
-      <guid>https://yfp-c.github.io/blog-hugo/posts/my-fourth-post/</guid>
+      <guid>https://lulukskitchen.com/posts/my-fourth-post/</guid>
       <description>HELLO</description>
     </item>
     
     <item>
       <title>My 3rd post!!!</title>
-      <link>https://yfp-c.github.io/blog-hugo/posts/my-third-post/</link>
+      <link>https://lulukskitchen.com/posts/my-third-post/</link>
       <pubDate>Tue, 03 Jan 2023 11:30:03 +0000</pubDate>
       
-      <guid>https://yfp-c.github.io/blog-hugo/posts/my-third-post/</guid>
+      <guid>https://lulukskitchen.com/posts/my-third-post/</guid>
       <description>HELLO</description>
     </item>
     
     <item>
       <title>My 2nd post!!!</title>
-      <link>https://yfp-c.github.io/blog-hugo/posts/my-second-post/</link>
+      <link>https://lulukskitchen.com/posts/my-second-post/</link>
       <pubDate>Mon, 02 Jan 2023 11:30:03 +0000</pubDate>
       
-      <guid>https://yfp-c.github.io/blog-hugo/posts/my-second-post/</guid>
+      <guid>https://lulukskitchen.com/posts/my-second-post/</guid>
       <description>HELLO</description>
     </item>
     
