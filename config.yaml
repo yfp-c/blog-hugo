@@ -1,7 +1,8 @@
-baseURL: 'https://yfp-c.github.io/blog-hugo'
-title: ExampleSite
-paginate: 5
+baseURL: 'https://lulukskitchen.com/'
+title: Luluk's Kitchen
+paginate: 4
 theme: PaperMod
+canonifyURLS: false
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -14,10 +15,16 @@ minify:
   disableXML: true
   minifyOutput: true
 
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: Luluk's Kitchen
+  description: "ExampleSitee description"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
@@ -36,7 +43,7 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   showtoc: false
@@ -59,7 +66,7 @@ params:
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: ExampleSite
+    title: Luluk's Kitchen
     subtitle: "This is subtitle"
     imageUrl: "<img location>"
     imageWidth: 120
@@ -74,7 +81,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Content: Welcome to my blog!
 
   socialIcons:
     - name: twitter
@@ -112,20 +119,28 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+
+    disqusShortname: https-yfp-c-github-io-blog-hugo
+
+
 menu:
   main:
+    - identifier: archives
+      name: archives
+      url: https://lulukskitchen.com/archives/
+      weight: 10
     - identifier: categories
       name: categories
-      url: /categories/
-      weight: 10
+      url: https://lulukskitchen.com/categories/
+      weight: 20
     - identifier: tags
       name: tags
-      url: /tags/
-      weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+      url: https://lulukskitchen.com/tags/
       weight: 30
+    - identifier: search
+      name: search
+      url: https://lulukskitchen.com/search/
+      weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
